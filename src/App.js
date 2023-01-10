@@ -1,11 +1,27 @@
 import './App.css';
 import React from 'react';
 
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+
 function App() {
   return (
-    <div>
-      Hello Brit React Portfolio
-    </div>
+    <main>
+      <section>
+        <h1>BRIT SOVIC</h1>
+      </section>
+      <section>
+        <About></About>
+
+        <Contact></Contact>
+
+        <Portfolio></Portfolio>
+
+        <Resume></Resume>
+      </section>
+    </main>
   );
 }
 
