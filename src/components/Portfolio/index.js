@@ -14,31 +14,7 @@ function Portfolio() {
             description: "A short JavaScript quiz to test your knowledge on JavaScript basics",
             deployedLink: "https://bsovic23.github.io/code-quiz/",
             picture: "picture1"
-        },
-        {
-            name: "Code Quiz",
-            description: "A short JavaScript quiz to test your knowledge on JavaScript basics",
-            deployedLink: "https://bsovic23.github.io/code-quiz/",
-            picture: "picture1"
-        },
-        {
-            name: "Code Quiz",
-            description: "A short JavaScript quiz to test your knowledge on JavaScript basics",
-            deployedLink: "https://bsovic23.github.io/code-quiz/",
-            picture: "picture1"
-        },
-        {
-            name: "Code Quiz",
-            description: "A short JavaScript quiz to test your knowledge on JavaScript basics",
-            deployedLink: "https://bsovic23.github.io/code-quiz/",
-            picture: "picture1"
-        },
-        {
-            name: "Code Quiz",
-            description: "A short JavaScript quiz to test your knowledge on JavaScript basics",
-            deployedLink: "https://bsovic23.github.io/code-quiz/",
-            picture: "picture1"
-        },
+        }
     ];
 
     return(

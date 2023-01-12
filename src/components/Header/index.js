@@ -1,9 +1,12 @@
-import React from 'React';
+import React, { useState } from 'react';
 
 function Header() {
-    return(
-        <div>Header</div>
+      return (
+        <div>
+         this is the header
+        </div>
     )
 };
+
 
 export default Header;
