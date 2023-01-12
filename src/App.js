@@ -34,13 +34,14 @@ function App() {
 
     return(
       <section>
-            <Header></Header>
+                <Header></Header>
            <div>
               <NavBar></NavBar>
             </div>
             <div>
              {component}
             </div>
+                <Footer></Footer>
       </section>
   );
 }

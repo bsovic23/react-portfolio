@@ -23,7 +23,7 @@ function Portfolio() {
                 <li key={project.name} class="projectCard">
                     <h1>Project Name: {project.name}</h1>
                     <p>Project Description: {project.description}</p>
-                    <p>Project Link: {project.deployedLink}</p>
+                    <a href={project.deployedLink} target="_blank">Project Link</a>
                     <p>Project Picture: {project.picture}</p>
                 </li>
             ))}

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Header() {
       return (
         <div>
-         this is the header
+            Brit Sovic
         </div>
     )
 };

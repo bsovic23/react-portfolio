@@ -21,10 +21,17 @@
 
 
 /* About */
+.about div {
+  background-color: var(--colorTwo);
+  padding: 20px;
+}
 
 
 /* Contact */
-
+.contact div {
+  background-color: var(--colorThree);
+  padding: 20px;
+}
 
 
 /* Portfolio */
