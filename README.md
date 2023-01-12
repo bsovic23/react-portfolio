@@ -12,7 +12,9 @@ In this project, I am recreating my portfolio with a few additions but instead o
 
 ## Link To Deployed Application
 
+You can access the deployed application at:
 
+https://murmuring-sea-34937.herokuapp.com/
 
 
 ## Future Developments
@@ -23,3 +25,5 @@ In this project, I am recreating my portfolio with a few additions but instead o
 
 
 ## Screenshots
+
+![](src/images/welcome.PNG)
