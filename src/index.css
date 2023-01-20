@@ -19,6 +19,15 @@
   background-color: var(--colorTwo);
 }
 
+.navBar div {
+  display: inline-block;
+  margin: 10px;
+}
+
+.navBar .navChoice {
+  text-decoration: none;
+}
+
 
 /* About */
 .about div {

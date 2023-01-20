@@ -35,7 +35,7 @@ function App() {
     return(
       <section>
                 <Header></Header>
-           <div>
+           <div id="navbar">
               <NavBar></NavBar>
             </div>
             <div>

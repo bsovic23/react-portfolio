@@ -10,21 +10,21 @@ import Header from '../Header';
 
 function NavBar() {   
     return(
-        <section>
+        <section class="navBar">
             <div>
-                <a href="/">Home</a>
+                <a href="/" class="navChoice">Home</a>
             </div>
             <div>
-                <a href="/About">About</a>
+                <a href="/About" class="navChoice">About</a>
             </div>
             <div>
-                <a href="/Contact">Contact</a>
+                <a href="/Contact" class="navChoice">Contact</a>
             </div>
             <div>
-                <a href="/Portfolio">Portfolio</a>
+                <a href="/Portfolio" class="navChoice">Portfolio</a>
             </div>
             <div>
-                <a href="/Resume">Resume</a>
+                <a href="/Resume" class="navChoice">Resume</a>
             </div>
         </section>
     )
