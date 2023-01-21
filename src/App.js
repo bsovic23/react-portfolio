@@ -33,7 +33,7 @@ function App() {
     }
 
     return(
-      <section>
+      <section class="body">
                 <Header></Header>
            <div id="navbar">
               <NavBar></NavBar>

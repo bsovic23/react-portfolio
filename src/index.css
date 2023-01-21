@@ -1,4 +1,4 @@
-
+/* All CSS */
 :root {
   --colorOne: #D9F4C7;
   --colorTwo: #00A5CF;
@@ -10,41 +10,50 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: var(--colorOne);
 }
 
-/* NAVBAR */
-
-.navBar h1 {
-  background-color: var(--colorTwo);
+.body {
+  background-color: var(--colorFour);
 }
 
-.navBar div {
+/* NAVBAR  ================================================= */
+
+.navBar {
+  background-color: var(--colorFive);
+}
+
+.navBar a {
   display: inline-block;
-  margin: 10px;
-}
-
-.navBar .navChoice {
+  margin: 20px;
+  text-align: center;
+  font-size: 24px;
   text-decoration: none;
+  color: var(--colorThree);
+}
+
+.navBar a:hover {
+  background-color: yellow;
+  border: black 1px solid;
+  border-radius: 10px;
 }
 
 
-/* About */
+/* About  ================================================== */
 .about div {
   background-color: var(--colorTwo);
   padding: 20px;
 }
 
 
-/* Contact */
+/* Contact  ================================================= */
 .contact div {
   background-color: var(--colorThree);
   padding: 20px;
 }
 
 
-/* Portfolio */
+/* Portfolio  ================================================= */
 
 
 
-/* Resume */
+/* Resume  ================================================= */
