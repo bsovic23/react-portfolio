@@ -32,11 +32,8 @@
 }
 
 .navBar a:hover {
-  background-color: yellow;
-  border: black 1px solid;
-  border-radius: 10px;
+  color: yellow;
 }
-
 
 /* About  ================================================== */
 .about div {
@@ -48,6 +45,15 @@
   height: 200px;
   width: 200px;
   border: black 2px solid;
+}
+
+.about li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.about h2 {
+  background-color: var(--colorTwo);
 }
 
 /* Contact  ================================================= */
