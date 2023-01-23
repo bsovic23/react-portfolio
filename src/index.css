@@ -40,10 +40,15 @@
 
 /* About  ================================================== */
 .about div {
-  background-color: var(--colorTwo);
+  background-color: var(--colorFour);
   padding: 20px;
 }
 
+.about img {
+  height: 200px;
+  width: 200px;
+  border: black 2px solid;
+}
 
 /* Contact  ================================================= */
 .contact div {
