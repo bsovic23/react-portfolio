@@ -68,3 +68,29 @@
 
 
 /* Resume  ================================================= */
+
+
+
+
+/* Footer  ================================================= */
+.footer {
+  background-color: var(--colorFive);
+}
+
+.footer .footer-instructions, .footer .footer-section-links {
+  text-align: center;
+}
+
+.footer .icon {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer #github-icon{
+  color: black;
+}
+
+.footer #linkedin-icon{
+  color: blue;
+}
