@@ -35,6 +35,23 @@
   color: yellow;
 }
 
+/* Home  ================================================== */
+.home h1, p, h3 {
+  margin: 10px;
+}
+
+.home ul .home-tab h4 {
+  background-color: var(--colorTwo);
+}
+
+.home ul .home-tab {
+  padding: 20px;
+}
+
+.home ul {
+  list-style-type: none;
+}
+
 /* About  ================================================== */
 .about div {
   background-color: var(--colorFour);
