@@ -57,11 +57,25 @@
 }
 
 /* Contact  ================================================= */
-.contact div {
-  background-color: var(--colorThree);
-  padding: 20px;
+.contact-section div {
+  background-color: var(--colorFour);
+  margin: 20px;
 }
 
+.contact-section div input, textarea {
+  border: black solid 2px;
+}
+
+.contact-form button {
+  height: 20px;
+  width: 90px;
+  margin-left: 110px;
+  margin-bottom: 10px;
+}
+
+.contact-form button:hover {
+  background-color: yellow;
+}
 
 /* Portfolio  ================================================= */
 
@@ -77,8 +91,10 @@
   background-color: var(--colorFive);
 }
 
-.footer .footer-instructions, .footer .footer-section-links {
+.footer .footer-instructions, .footer .footer-section-links,
+.footer .footer-instructions a {
   text-align: center;
+  text-decoration: none;
 }
 
 .footer .icon {

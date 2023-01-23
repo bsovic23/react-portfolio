@@ -1,10 +1,15 @@
 import React from 'react';
 
+import { AiOutlineSend } from 'react-icons/ai';
+
 function Contact() {
     return(
-        <section class="contact">
+        <section class="contact-section">
             <h1>Contact Form</h1>
-            <form>
+            <form class="contact-form">
+                <p>
+                    Please enter your information below if you would like me to contact you
+                </p>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name"/>
@@ -22,10 +27,10 @@ function Contact() {
 
                 <div>
                     <label htmlFor="comment">Comment:</label>
-                    <textarea rows="10" name="comment"/>
+                    <textarea rows="7" name="comment"/>
                 </div>
 
-                <button type="submit">Submit Comment</button>
+                <button type="submit">Send< AiOutlineSend /></button>
             </form>
         </section>
     )
