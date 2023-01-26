@@ -5,7 +5,7 @@ function Home() {
         <section class="home">
             <h1>Welcome to Brits Portfolio</h1>
             <p>
-                This portfolio includes different sectiosn that display aspects of my coding abilities and information about me.
+                This portfolio includes different sections that display aspects of my coding abilities and information about me.
             </p>
 
             <h3>Portfolio Sections</h3>
