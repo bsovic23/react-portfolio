@@ -86,14 +86,14 @@ function Portfolio() {
     return(
         <div>
             {projects.map((project) => (
-                <li key={project.name} class="projectCard">
-                    <div>
+                <li key={project.name} class="project-card">
+                    <div class="project-pictures">
                         <p>Project Picture: {project.picture}</p>
                     </div>
-                    <div>
-                        <h1>Project Name: {project.name}</h1>
-                        <p>Project Description: {project.description}</p>
-                        <p><a href={project.deployedLink} target="_blank">Deployed Application Link</a></p>
+                    <div class="project-info">
+                        <h1 class="project-header">Project Name: {project.name}</h1>
+                        <p class="project-desc">Project Description: {project.description}</p>
+                        <p class="project-link"><a href={project.deployedLink} target="_blank">Click here to see {project.name} deployed application</a></p>
                     </div>
                 </li>
             ))}

@@ -73,6 +73,10 @@
   background-color: var(--colorTwo);
 }
 
+.about .about-languages div {
+  display: inline-block;
+}
+
 /* Contact  ================================================= */
 .contact-section div {
   background-color: var(--colorFour);
@@ -95,9 +99,25 @@
 }
 
 /* Portfolio  ================================================= */
-.projectCard div {
+.project-card .project-pictures, .project-card .project-info{
   display: inline-block;
 }
+
+.project-card {
+  list-style-type: none;
+  margin-top: 20px;
+  background-color: var(--colorTwo);
+}
+
+.project-info a {
+  color: black;
+  text-decoration: none;
+}
+
+.project-info a:hover {
+  color: yellow;
+}
+
 
 
 /* Resume  ================================================= */

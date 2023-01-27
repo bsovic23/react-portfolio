@@ -17,7 +17,7 @@ function Home() {
                     <h4>About</h4>
                     <li>Education/Occupation</li>
                     <li>Fun Facts</li>
-                    <li>Languages</li>
+                    <li>My Coding Languages</li>
                 </div>
 
                 <div class="home-tab">
@@ -34,6 +34,7 @@ function Home() {
 
                 <div class="home-tab">
                     <h4>Resume</h4>
+                    <li>View a copy of my resume</li>
                     <li>Download a copy of my resume</li>
                 </div>
             </ul>
