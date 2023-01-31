@@ -5,7 +5,7 @@
 [Description](#project-description)
 [Tools](#tools-used-in-project)
 [Link](#link-to-deployed-application)
-[Future](#future-developments);
+[Future](#future-developments)
 [Screenshots](#screenshots)
 
 ## Project Description
@@ -22,7 +22,7 @@ In this project, I am recreating my portfolio with a few additions but instead o
 
 You can access the deployed application at:
 
-https://murmuring-sea-34937.herokuapp.com/
+https://brit-portfolio-react.herokuapp.com/
 
 
 ## Future Developments
@@ -34,4 +34,3 @@ https://murmuring-sea-34937.herokuapp.com/
 
 ## Screenshots
 
-![](src/images/welcome.PNG)

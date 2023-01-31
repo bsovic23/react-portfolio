@@ -10,7 +10,7 @@ function Portfolio() {
             picture: "picture1"
         },
         {
-            name: "BRITSports",
+            name: "SOVICsports",
             description: "description",
             deployedLink: "link",
             picture: "picture1"
@@ -19,7 +19,7 @@ function Portfolio() {
             name: "Weather Dashboard",
             description: "You can use the weather dashboard to search any cities current and 5 day weather forecast",
             deployedLink: "https://bsovic23.github.io/weather-dashboard/",
-            picture: <img src="images/brit_img.png" alt="project picture"/>
+            picture: "../images/brit_img.png"
         },
         {
             name: "Code Quiz",
@@ -42,7 +42,7 @@ function Portfolio() {
         {
             name: "Find Your Pet",
             description: "description",
-            deployedLink: "link",
+            deployedLink: "https://mkhlink.github.io/Find_Your_Pet/",
             picture: "picture1"
         },
         {
@@ -60,7 +60,7 @@ function Portfolio() {
         {
             name: "Notetaker",
             description: "description",
-            deployedLink: "link",
+            deployedLink: "https://notetaker-deploy-brit.herokuapp.com/",
             picture: "picture1"
         },
         {
@@ -78,7 +78,7 @@ function Portfolio() {
         {
             name: "Run Buddy 2.0",
             description: "description",
-            deployedLink: "link",
+            deployedLink: "https://bsovic23.github.io/run-buddy/",
             picture: "picture1"
         }
     ];
@@ -88,6 +88,7 @@ function Portfolio() {
             {projects.map((project) => (
                 <li key={project.name} class="project-card">
                     <div class="project-pictures">
+                        <img src={project.picture} />;
                         <p>Project Picture: {project.picture}</p>
                     </div>
                     <div class="project-info">
