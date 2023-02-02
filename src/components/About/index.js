@@ -5,7 +5,7 @@ function About() {
         <section class="about">
                 <div>
                     <img
-                        src={require("../../images/brit_img.png")} 
+                        src={require("../images/brit_img.png")} 
                         alt="picture of Brit Sovic"/>
                 </div>
                 <section>
@@ -13,7 +13,7 @@ function About() {
                     <ul>
                         <li>Undergraduate Degree: Syracuse University, BS - Public Health</li>
                         <li>Graduate Degree: Tulane University, MPH - Epidemiology</li>
-                        <li>Certificate: </li>
+                        <li>Certificate: Columbia University School of Engineering Full Stack Web Development</li>
                         <li>Current Occupation: Data Analysis and Managment for the Infectious Diseases Department of Medicine
                             at Columbia University Irving Medical Center</li>
                     </ul>
@@ -31,7 +31,7 @@ function About() {
                                 <li>HTML5</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
-                                <li>React</li>
+                                <li>React.js</li>
                             </ul>
                         </div>
                         <div>
