@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Header() {
       return (
-        <div>
+        <header>
             Brit Sovic - Portfolio
-        </div>
+        </header>
     )
 };
 

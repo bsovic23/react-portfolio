@@ -149,3 +149,11 @@
 .footer #linkedin-icon{
   color: blue;
 }
+
+.footer #github-icon:hover{
+  color: yellow;
+}
+
+.footer #linkedin-icon:hover{
+  color: yellow;
+}

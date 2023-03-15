@@ -3,9 +3,13 @@
 ## Table of Contents
 
 [Description](#project-description)
+
 [Tools](#tools-used-in-project)
+
 [Link](#link-to-deployed-application)
+
 [Future](#future-developments)
+
 [Screenshots](#screenshots)
 
 ## Project Description

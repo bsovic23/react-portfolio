@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 function Footer() {
     return(
-        <section class="footer">
+        <footer class="footer">
             <div class="footer-instructions">
                 <p>Click the icons below to visit my personal pages</p>
             </div>
@@ -15,7 +15,7 @@ function Footer() {
             <div class="footer-instructions">
                 <a href="">Click here to return to the top of the page</a>
             </div>
-        </section>
+        </footer>
     )
 };
 
